@@ -1,0 +1,58 @@
+.header {
+	border-bottom: 2px solid #79C9EC;
+	height: 120px;
+}
+
+.txtBox-login {
+	margin: 20px 80px !important;;
+}
+
+.btn-login {
+	margin: 20px 130px !important;
+	margin-bottom: 50px !important;
+}
+
+#imgLogoApp {
+	background-image: url("#{resource['images/logoAplication.png']}");
+	float: left;
+	height: 227px;
+	margin-left: 200px;
+	margin-top: 50px;
+	width: 287px;
+}
+
+#imgLogoCompany {
+	background-image: url("#{resource['images/logoCompany.png']}");
+	float: left;
+	height: 67px;
+	margin-left: 80px;
+	margin-top: 20px;
+	width: 112px;
+}
+
+#campanyName {
+	float: left;
+	height: 20px;
+	margin-left: 130px;
+	margin-top: 25px;
+	width: 85px;
+}
+
+.panel-login {
+	height: 300px;
+	margin-left: 650px;
+	margin-top: 45px;
+	width: 400px;
+	margin-bottom: 90px;
+}
+
+.cmLink-recover {
+	margin: 20px 90px !important;
+	font-size: 0.7em !important;
+}
+
+.cmLink-register {
+	color: #222222;
+	margin: 20px 530px !important;
+	font-size: 0.9em !important;
+}

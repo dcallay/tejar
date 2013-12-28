@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/templates/emptyTemplate.xhtml">
+	<ui:define name="content">
+		<h:form>
+			<div id="imgLogoApp" />
+			<p:panel id="pnlLogin" styleClass="panel-login" columns="1">
+				<p:inputText placeholder="Correo electrónico"
+					styleClass="txtBox-login" />
+				<p:password placeholder="Contraseña" styleClass="txtBox-login" />
+				<p:commandButton value="Entrar" styleClass="btn-login" />
+				<p:commandLink styleClass="cmLink-recover" ajax="false">
+					<h:outputText value="¿Se te olvidó tu contraseña?" />
+				</p:commandLink>
+			</p:panel>
+			<p:commandLink styleClass="cmLink-register" ajax="false">
+				<h:outputText value="Regístrate" />
+			</p:commandLink>
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>
